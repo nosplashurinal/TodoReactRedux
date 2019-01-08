@@ -1,0 +1,34 @@
+.card {
+  margin-right: 48px;
+  background: transparent;
+  border: 0;
+  width: 100%;
+}
+
+.moveup,
+.movedown {
+  background-color: transparent !important;
+  padding: 0 5px;
+  img {
+    width: 10px;
+    height: 10px;
+  }
+  &:hover {
+    background-color: #e2e7ec;
+  }
+}
+.movedown img {
+  transform: rotate(180deg);
+}
+
+.text {
+  margin-left: 10px;
+  &.completed {
+    text-decoration: line-through;
+    color: #13bbb2;
+  }
+}
+
+.checkbox {
+  padding-left: 10px;
+}

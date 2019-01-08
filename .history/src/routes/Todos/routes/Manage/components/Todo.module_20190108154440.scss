@@ -1,0 +1,63 @@
+.card {
+  margin-right: 48px;
+  background: transparent;
+  width: 100%;
+  &:hover {
+    .reorder_buttons {
+      visibility: visible;
+    }
+  }
+  .contentContainer {
+    >div {
+      margin-bottom: 0;
+    }
+  }
+  .todoEditorInput {
+    margin-left: 10px;
+  }
+}
+
+.reorder_buttons {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  .moveup,
+  .movedown {
+    background-color: transparent !important;
+    padding: 0 12px;
+    flex: none;
+    border: 0;
+    transition: transform 100ms ease;
+    height: auto;
+    img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
+
+.moveup {
+  &:hover {
+    transform: translate(0, -3px);
+  }
+}
+.movedown {
+  &:hover {
+    transform: translate(0, 3px);
+  }
+}
+.movedown img {
+  transform: rotate(180deg);
+}
+
+.text {
+  margin-left: 10px;
+  &.completed {
+    text-decoration: line-through;
+    color: #13bbb2;
+  }
+}
+
+.checkbox {
+  padding-left: 10px;
+}

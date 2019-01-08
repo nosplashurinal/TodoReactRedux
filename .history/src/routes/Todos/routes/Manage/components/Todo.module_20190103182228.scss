@@ -1,0 +1,49 @@
+.card {
+  margin-right: 48px;
+  background: transparent;
+  width: 100%;
+}
+
+.reorder_buttons {
+  display: flex;
+  flex-direction: column;
+  .moveup,
+  .movedown {
+    background-color: transparent !important;
+    padding: 0 6px;
+    flex: none;
+    border: 0;
+    transition: transform 100ms ease;
+    img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
+
+.moveup {
+  margin-bottom: 4px;
+  &:hover {
+    transform: translate(0, -3px);
+  }
+}
+.movedown {
+  &:hover {
+    transform: translate(0, 3px);
+  }
+}
+.movedown img {
+  transform: rotate(180deg);
+}
+
+.text {
+  margin-left: 10px;
+  &.completed {
+    text-decoration: line-through;
+    color: #13bbb2;
+  }
+}
+
+.checkbox {
+  padding-left: 10px;
+}

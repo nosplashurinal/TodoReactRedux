@@ -1,0 +1,13 @@
+.card {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+}
+
+.text {
+  margin-left: 10px;
+  &.completed {
+    text-decoration: line-through;
+    color: #13BBB2;
+  }
+}

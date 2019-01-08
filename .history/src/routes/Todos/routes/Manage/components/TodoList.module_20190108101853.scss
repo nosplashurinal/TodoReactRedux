@@ -1,0 +1,35 @@
+.stateContent {
+  margin-top: 0px;
+}
+.animateUp {
+  transform: translate(0, 100%);
+  animation: moveUp 400ms ease-in-out forwards;
+}
+.animateDown {
+  transform: translate(0, -100%);
+  animation: moveDown 400ms ease-in-out forwards;
+}
+@keyframes moveUp {
+  0% {
+    transform: translate(0, 100%);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes moveDown {
+  0% {
+    transform: translate(0, -100%);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}

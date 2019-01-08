@@ -1,0 +1,8 @@
+Django==1.11
+rollbar==0.13.9
+requests==2.13.0
+django-webpack-loader==0.4.1
+gunicorn==19.7.1
+django-revproxy==0.9.13
+six==1.11.0
+PyJWT==1.5.0

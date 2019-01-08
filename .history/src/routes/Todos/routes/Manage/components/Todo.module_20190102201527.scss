@@ -1,0 +1,17 @@
+.card {
+  margin: 10px;
+  background: transparent;
+  border: 0;
+  &:hover {
+    border: 0;
+    box-shadow: none;
+  }
+}
+
+.text {
+  margin-left: 10px;
+  &.completed {
+    text-decoration: line-through;
+    color: #13BBB2;
+  }
+}

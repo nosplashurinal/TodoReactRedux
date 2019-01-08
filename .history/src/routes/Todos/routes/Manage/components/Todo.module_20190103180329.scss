@@ -1,0 +1,44 @@
+.card {
+  margin-right: 48px;
+  background: transparent;
+  width: 100%;
+}
+
+.reorder_buttons {
+  display: flex;
+  flex-direction: column;
+  .moveup,
+  .movedown {
+    background-color: transparent !important;
+    padding: 0 6px;
+    flex: none;
+    border: 0;
+    transition: none;
+    &:hover {
+      background: #0082d4;
+    }
+    img {
+      width: 8px;
+      height: 8px;
+    }
+  }
+}
+
+.moveup {
+  margin-bottom: 4px;
+}
+.movedown img {
+  transform: rotate(180deg);
+}
+
+.text {
+  margin-left: 10px;
+  &.completed {
+    text-decoration: line-through;
+    color: #13bbb2;
+  }
+}
+
+.checkbox {
+  padding-left: 10px;
+}

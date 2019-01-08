@@ -1,0 +1,21 @@
+@import '../../styles/_base.scss';
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+$OpenSans = 'Open Sans', sans-serif;
+
+.appBody {
+  padding: 20px !important;
+  min-height: 600px !important;
+  min-width: $website-min-width !important;
+  overflow-x: hidden;
+}
+
+.loadingWrapper {
+  margin-top: 200px;
+}
+
+.footer {
+  background-color: $siui-color-body-background !important;
+  min-width: $website-min-width !important;
+  text-align: center;
+}

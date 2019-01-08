@@ -1,0 +1,20 @@
+@import "../../styles/_base.scss";
+
+.loadBox {
+  width: 80% !important;
+  // max-width: 1080px !important;
+  margin-top: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 40px !important;
+  background: transparent;
+  border: 0;
+  font-family: $siui-font-family !important;
+  font-size: 14px !important;
+  &:hover {
+    background: transparent;
+  }
+}
+
+.loadBoxError {
+  background: light-red;
+}

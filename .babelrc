@@ -1,0 +1,25 @@
+{
+  "presets": ["react", "es2015"],
+  "plugins": [
+    ["import", [{
+      "libraryName": "antd",
+      "style": "css"
+    }, {
+      "libraryName": "lodash",
+      "libraryDirectory": "",
+      "camel2DashComponentName": false,
+    }, {
+      "libraryName": "components",
+      "libraryDirectory": "",
+      "camel2DashComponentName": false,
+    }, {
+      "libraryName": "HOCS",
+      "libraryDirectory": "",
+      "camel2DashComponentName": false,
+    }]],
+      "transform-runtime",
+      "transform-class-properties",
+      "transform-object-rest-spread",
+      "dynamic-import-node",
+  ]
+}

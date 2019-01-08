@@ -1,0 +1,27 @@
+.card {
+  margin-right: 48px;
+  background: transparent;
+  border: 0;
+  width: 100%;
+}
+
+.reorderbuttons {
+  .moveup, .movedown {
+    background-color: transparent;
+  }
+  .movedown img {
+    translate: rotate(180deg);
+  }
+}
+
+.text {
+  margin-left: 10px;
+  &.completed {
+    text-decoration: line-through;
+    color: #13BBB2;
+  }
+}
+
+.checkbox {
+  padding-left: 10px;
+}
